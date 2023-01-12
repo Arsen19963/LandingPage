@@ -1,0 +1,1507 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,900&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #100C16;
+}
+
+button:hover {
+  transform: scale(1.02)
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 300px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+  margin-top: 17px;
+}
+
+header nav .left_part a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  gap: 7px;
+  cursor: pointer;
+}
+
+header nav .right_part button {
+  padding: 10px 50px;
+  color: #ffff;
+  background: transparent;
+  border: 1px solid #8276FF;
+  border-radius: 131px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+header nav .right_part .right_part-btn {
+  cursor: pointer;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+header .below_nav {
+  margin-top: 130px;
+  display: flex;
+}
+
+header .below_nav .below_nav-left {
+  flex: 1;
+}
+
+header .below_nav .below_nav-left .below_nav-left_first {
+  max-width: 550px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 69px;
+  color: #ffff;
+  letter-spacing: 0.007em;
+}
+
+header .below_nav .below_nav-left .below_nav-left_first span {
+  color: #FFC759;
+  font-weight: 900;
+  font-size: 49px;
+  text-transform: uppercase;
+}
+
+header .below_nav .below_nav-right {
+  flex: 1;
+  min-width: 680px;
+  height: 680px;
+  background-image: url('./img/Advertistment.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .below_nav .below_nav-left .below_nav-left_second {
+  margin-top: 20px;
+  max-width: 250px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+}
+
+header .below_nav .below_nav-left .below_nav-left_third .below_nav-left_third-btn {
+  margin-top: 15px;
+  padding: 15px 40px;
+  background: #8276FF;
+  border-radius: 31px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+header .below_nav .below_nav-left .below_nav-left_fourth {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+header .below_nav .below_nav-left .below_nav-left_fourth p {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+}
+
+header .below_nav .below_nav-left .below_nav-left_fourth p>span {
+  margin: 0px 5px;
+  width: 2px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+header .below_nav .below_nav-left .below_nav-left_fifth {
+  margin-top: 60px;
+  display: flex;
+  gap: 5px;
+}
+
+header .below_nav .below_nav-left .below_nav-left_fifth p {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+}
+
+header .below_nav .below_nav-left .below_nav-left_sixth {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* main section */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+}
+
+main .main_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+}
+
+main .pricetags {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+main .pricetags .pricetag {
+  position: relative;
+  width: 530px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(141, 159, 244, 0.3);
+  border-radius: 10px;
+}
+
+main .pricetags .pricetag .discountSign {
+  position: absolute;
+  right: -70px;
+  top: -80px;
+}
+
+main .pricetags .pricetag .pricetags_textures {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .pricetags .pricetag .pricetags_textures .monthly {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+main .pricetags .pricetag .pricetags_textures .discounted_price {
+  top: 110px;
+  position: absolute;
+  left: 70px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 58px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  background: linear-gradient(to left top, transparent 47.75%, 49.5%, #F354B4 50.5%, transparent 52.25%);
+}
+
+main .pricetags .pricetag .pricetags_textures .main_price {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 157px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+}
+
+main .pricetags .pricetag .pricetags_textures .perUserMonth {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.007em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main .pricetags .pricetag .pricetags_textures .benefits {
+  display: flex;
+  gap: 20px;
+}
+
+main .pricetags .pricetag .pricetags_textures .benefits .ok_signs {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+}
+
+main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses div {
+  max-width: 120px;
+}
+
+main .pricetags .pricetag .pricetags_textures .benefits_btn {
+  margin-top: 50px;
+  background: #8276FF;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding: 15px 40px;
+  border: 0;
+}
+
+main .pricetags .pricetag .pricetags_textures .exclusive {
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+
+/* Carousel Part*/
+main .slider {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  pointer-events: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+main .slider .slide  {
+  height: 240px;
+  width: 200px;
+  object-fit: cover;
+}
+
+main .slider .by_customers {
+  background: url('./img/awards/ourawards.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .highperformer2022winter {
+  background: url('./img/awards/highperformer2022winter.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .highperformer2022spring {
+  background: url('./img/awards/highperformer2022spring.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .highperformer2021summer {
+  background: url('./img/awards/highperformer2021summer.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .highperformer2021fall {
+  background: url('./img/awards/highperformer2021fall.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .leader {
+  background: url('./img/awards/leader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .happiest {
+  background: url('./img/awards/happiestuser.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .easiest {
+  background: url('./img/awards/easiest.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .bestvalue {
+  background: url('./img/awards/bestvalue.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .bestdigital {
+  background: url('./img/awards/bestdigital.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .slider .qualitychoice {
+  background: url('./img/awards/qualitychoice.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .announcement_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+main .announcement_2 span {
+  color: #FFC759;
+}
+
+main .managment_desk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 200px;
+  background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+  border-radius: 26px;
+  overflow: hidden;
+  padding: 80px 100px 100px 50px;
+}
+
+main .managment_desk nav ul {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 40px;
+  border-bottom: 1.5px solid #E7E9F2;
+}
+
+main .managment_desk nav ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+main .managment_desk nav ul li a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+}
+
+main .managment_desk .advantages {
+  margin-top: 80px;
+  display: flex;
+  gap: 40px;
+}
+
+main .managment_desk .advantages .advantages_textures {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+main .managment_desk .advantages .advantages_textures .advantages_textures_main_text {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  max-width: 660px;
+}
+
+main .managment_desk .advantages .advantages_textures div .advantages-btn {
+  margin-top: 40px;
+  padding: 15px 50px;
+  background: #8276FF;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  border: 0;
+}
+
+main .managment_desk .advantages .advantages_background {
+  flex: 1;
+  width: 440px;
+  height: 300px;
+  background: url('./img/advantages_background_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main .colleague_companies {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main .colleague_companies .colleague_companies_title {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 42px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+main .colleague_companies .colleague_companies_logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  justify-content: space-around;
+}
+
+
+/*      footer      */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+  height: 400px;
+  padding-top: 20px;
+}
+
+footer .last_discount .last_discount_title {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 62px;
+  letter-spacing: 0.007em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+footer .last_discount .last_discount-btn {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  background: #8276FF;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 40px;
+  border: 0;
+}
+
+footer .last_discount_logos {
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+footer .last_discount_logos .Activity {
+  width: 240px;
+  height: 125px;
+  background: url('./img/footer/Activity_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer .last_discount_logos .parent {
+  width: 260px;
+  height: 205px;
+  background: url('./img/footer/Selfie_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+footer .last_discount_logos .child_1 {
+  width: 260px;
+  height: 100%;
+  left: 70px;
+  top: 20px;
+  background: url('./img/footer/Selfie.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+footer .last_discount_logos .degree {
+  width: 240px;
+  height: 125px;
+  background: url('./img/footer/degree.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer .last_discount_logos .team {
+  width: 240px;
+  height: 125px;
+  background: url('./img/footer/team.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*    Scrolling button   */
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s ease-in;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+/* For larger laptops and monitors */
+
+@media (max-width: 1440px) {
+  header nav .left_part a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    gap: 5px;
+    cursor: pointer;
+  }
+  header nav .right_part button {
+    padding: 7px 40px;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #8276FF;
+    border-radius: 131px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  header .below_nav {
+    margin-top: 125px;
+    display: flex;
+  }
+  header .below_nav .below_nav-left .below_nav-left_first {
+    max-width: 520px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    color: #ffff;
+    letter-spacing: 0.007em;
+  }
+  header .below_nav .below_nav-left .below_nav-left_first span {
+    color: #FFC759;
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+  header .below_nav .below_nav-right {
+    flex: 1;
+    min-width: 570px;
+    height: 570px;
+    background-image: url('./img/Advertistment.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header .below_nav .below_nav-left .below_nav-left_second {
+    margin-top: 17px;
+    max-width: 230px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_third .below_nav-left_third-btn {
+    margin-top: 14px;
+    padding: 14px 37px;
+    background: #8276FF;
+    border-radius: 31px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth {
+    margin-top: 17px;
+    display: flex;
+    color: white;
+    gap: 8px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth p>span {
+    margin: 0px 4px;
+    width: 2px;
+    height: 11px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fifth {
+    margin-top: 55px;
+    display: flex;
+    gap: 4px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fifth p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_sixth {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  /* main section */
+  main {
+    margin-bottom: 170px;
+  }
+  main .main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 50px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+  }
+  main .pricetags .pricetag {
+    position: relative;
+    width: 510px;
+    height: 570px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    border-radius: 8px;
+  }
+  main .pricetags .pricetag .discountSign {
+    position: absolute;
+    right: -60px;
+    top: -70px;
+  }
+  main .pricetags .pricetag .pricetags_textures {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .pricetags .pricetag .pricetags_textures .monthly {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.86);
+  }
+  main .pricetags .pricetag .pricetags_textures .discounted_price {
+    top: 100px;
+    position: absolute;
+    left: 65px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 55px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    background: linear-gradient(to left top, transparent 47.75%, 49.5%, #F354B4 50.5%, transparent 52.25%);
+  }
+  main .pricetags .pricetag .pricetags_textures .main_price {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 150px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags .pricetag .pricetags_textures .perUserMonth {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits {
+    display: flex;
+    gap: 17px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .ok_signs {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses div {
+    max-width: 100px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits_btn {
+    margin-top: 45px;
+    background: #8276FF;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 13px 37px;
+    border: 0;
+  }
+  main .pricetags .pricetag .pricetags_textures .exclusive {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+  }
+  /* Carousel Part*/
+  main .slider {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    pointer-events: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  main .slider .slide  {
+    height: 230px;
+    width: 190px;
+    object-fit: cover;
+  }
+  main .announcement_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 48px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+  }
+  main .managment_desk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 190px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    overflow: hidden;
+    padding: 75px 90px 90px 45px;
+  }
+  main .managment_desk nav ul {
+    display: flex;
+    gap: 90px;
+    padding-bottom: 35px;
+    border-bottom: 1.5px solid #E7E9F2;
+  }
+  main .managment_desk nav ul li {
+    gap: 17px;
+  }
+  main .managment_desk nav ul li a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .managment_desk .advantages {
+    margin-top: 70px;
+    display: flex;
+    gap: 35px;
+  }
+  main .managment_desk .advantages .advantages_textures .advantages_textures_main_text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 50px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    max-width: 640px;
+  }
+  main .managment_desk .advantages .advantages_textures div .advantages-btn {
+    margin-top: 35px;
+    padding: 12px 40px;
+    background: #8276FF;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: 0;
+  }
+  main .managment_desk .advantages .advantages_background {
+    flex: 1;
+    width: 420px;
+    height: 280px;
+  }
+  main .colleague_companies {
+    margin-top: 170px;
+  }
+  main .colleague_companies .colleague_companies_title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+  }
+  main .colleague_companies .colleague_companies_logos {
+    max-width: 1100px;
+  }
+  /*      footer      */
+
+  footer {
+    height: 380px;
+    padding-top: 18px;
+  }
+  footer .last_discount .last_discount_title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+  }
+  footer .last_discount .last_discount-btn {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    background: #8276FF;
+    border-radius: 28px;
+    color: white;
+    padding: 14px 38px;
+    border: 0;
+  }
+  footer .last_discount_logos {
+    display: flex;
+    width: 550px;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  footer .last_discount_logos .Activity {
+    width: 230px;
+    height: 120px;
+  }
+  footer .last_discount_logos .parent {
+    width: 250px;
+    height: 195px;
+  }
+  footer .last_discount_logos .child_1 {
+    width: 250px;
+    height: 100%;
+    left: 65px;
+    top: 18px;
+  }
+  footer .last_discount_logos .degree {
+    width: 230px;
+    height: 115px;
+    background: url('./img/footer/degree.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .last_discount_logos .team {
+    width: 230px;
+    height: 115px;
+  }
+  .to-top {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s ease-in;
+  }
+}
+
+
+/* Most common laptop resolution */
+
+@media(max-width: 1280px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 280px;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    margin-top: 16px;
+  }
+  header nav .left_part a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Source Sans Pro';
+    gap: 6px;
+    cursor: pointer;
+  }
+  header nav .right_part button {
+    padding: 9px 45px;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #8276FF;
+    border-radius: 128px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+  }
+  header .below_nav {
+    margin-top: 120px;
+    display: flex;
+  }
+  header .below_nav .below_nav-left .below_nav-left_first {
+    max-width: 520px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 65px;
+    color: #ffff;
+    letter-spacing: 0.007em;
+  }
+  header .below_nav .below_nav-left .below_nav-left_first span {
+    color: #FFC759;
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+  header .below_nav .below_nav-right {
+    flex: 1;
+    min-width: 520px;
+    height: 520px;
+    background-image: url('./img/Advertistment.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header .below_nav .below_nav-left .below_nav-left_second {
+    margin-top: 16px;
+    max-width: 220px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_third .below_nav-left_third-btn {
+    margin-top: 13px;
+    padding: 13px 35px;
+    background: #8276FF;
+    border-radius: 31px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth {
+    margin-top: 16px;
+    display: flex;
+    color: white;
+    gap: 7px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fourth p>span {
+    margin: 0px 4px;
+    width: 2px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fifth {
+    margin-top: 52px;
+    display: flex;
+    gap: 4px;
+  }
+  header .below_nav .below_nav-left .below_nav-left_fifth p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+  }
+  header .below_nav .below_nav-left .below_nav-left_sixth {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+  /* main section */
+  main {
+    margin-bottom: 160px;
+  }
+  main .main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+  }
+  main .pricetags .pricetag {
+    position: relative;
+    width: 480px;
+    height: 540px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    border-radius: 8px;
+  }
+  main .pricetags .pricetag .discountSign {
+    position: absolute;
+    right: -55px;
+    top: -65px;
+  }
+  main .pricetags .pricetag .pricetags_textures {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .pricetags .pricetag .pricetags_textures .monthly {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.86);
+  }
+  main .pricetags .pricetag .pricetags_textures .discounted_price {
+    top: 90px;
+    position: absolute;
+    left: 60px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    background: linear-gradient(to left top, transparent 47.75%, 49.5%, #F354B4 50.5%, transparent 52.25%);
+  }
+  main .pricetags .pricetag .pricetags_textures .main_price {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 140px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags .pricetag .pricetags_textures .perUserMonth {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits {
+    display: flex;
+    gap: 16px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .ok_signs {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits .benefits_bonuses div {
+    max-width: 90px;
+  }
+  main .pricetags .pricetag .pricetags_textures .benefits_btn {
+    margin-top: 42px;
+    background: #8276FF;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    border: 0;
+  }
+  main .pricetags .pricetag .pricetags_textures .exclusive {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+  }
+  /* Carousel Part*/
+  main .slider {
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    pointer-events: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  main .slider .slide  {
+    height: 220px;
+    width: 180px;
+    object-fit: cover;
+  }
+  main .announcement_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+  }
+  main .managment_desk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 180px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    overflow: hidden;
+    padding: 72px 85px 85px 40px;
+  }
+  main .managment_desk nav ul {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 32px;
+    border-bottom: 1.5px solid #E7E9F2;
+  }
+  main .managment_desk nav ul li {
+    gap: 16px;
+  }
+  main .managment_desk nav ul li a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+  }
+  main .managment_desk .advantages {
+    margin-top: 60px;
+    display: flex;
+    gap: 32px;
+  }
+  main .managment_desk .advantages .advantages_textures .advantages_textures_main_text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    max-width: 600px;
+  }
+  main .managment_desk .advantages .advantages_textures div .advantages-btn {
+    margin-top: 335px;
+    padding: 11px 27px;
+    background: #8276FF;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: 0;
+  }
+  main .managment_desk .advantages .advantages_background {
+    flex: 1;
+    width: 400px;
+    height: 260px;
+  }
+  main .colleague_companies {
+    margin-top: 160px;
+  }
+  main .colleague_companies .colleague_companies_title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+  }
+  main .colleague_companies .colleague_companies_logos {
+    max-width: 1000px;
+  }
+}
